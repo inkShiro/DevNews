@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.header_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+}
+
+.header_main .imagen img {
+    max-height: 50px;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar_item {
+    padding: 10px 20px;
+}
+
+.navbar_item a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #282828;
+}
+
+.hero_text {
+    max-width: 50%;
+}
+
+.hero_text h1 {
+    font-size: 3em;
+    color: #e0e0e0;
+}
+
+.hero_text h1 .red {
+    color: #ff5252;
+}
+
+.hero_text p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.hero_buttons {
+    margin-top: 20px;
+}
+
+.hero_buttons .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero_buttons .primary {
+    background-color: #ff5252;
+    color: #fff;
+}
+
+.hero_buttons .secondary {
+    background-color: #757575;
+    color: #fff;
+}
+
+.hero_images img {
+    max-height: 300px;
+}
+
+.content_section {
+    padding: 50px;
+    background-color: #1f1f1f;
+}
+
+.content_section h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.content .text {
+    max-width: 50%;
+}
+
+.content .image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content .btn.info {
+    background-color: #ff5252;
+    color: #fff;
+}
+
+.about_section {
+    padding: 50px;
+    background-color: #282828;
+}
+
+.about_section h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.team .member {
+    text-align: center;
+}
+
+.team .member img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+footer {
+    padding: 20px;
+    background-color: #1f1f1f;
+    text-align: center;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer_content .logo_footer img {
+    max-height: 50px;
+}
+
+.footer_content .text {
+    color: #757575;
+}
+
+/* Existing CSS remains the same */
+
+.info {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.info.hidden {
+    display: none;
+}
+
+.more-info {
+    background-color: #ff5252;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.more-info:hover {
+    background-color: #e04040;
+}
+    
